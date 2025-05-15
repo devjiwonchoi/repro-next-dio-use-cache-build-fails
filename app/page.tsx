@@ -1,7 +1,5 @@
+import Link from 'next/link'
+
 export default function Home() {
-  return (
-    <main>
-      <div>Hello world!</div>
-    </main>
-  );
+  return <Link href="/some/random">/some/random</Link>
 }
